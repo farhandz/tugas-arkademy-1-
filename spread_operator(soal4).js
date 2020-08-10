@@ -13,12 +13,10 @@ let data = {
     website: "hildegard.org",
 }
 
-
+console.log({...data})
 const { address } = data
 console.log(`ini street ${address.street} dan ini  city ${address.city}`)
 
-const farhan  = {...data, name: "farhan ammar dzakwan", email: "ammrjoz09@gmail.com", hobby: "fishing"}
-console.log(farhan)
+let farhan  = {...data, name: "farhan ammar dzakwan", email: "ammrjoz09@gmail.com", hobby: "fishing",}
 
-// console.log(address.city)
-// console.log(address.street)
+console.log(farhan)

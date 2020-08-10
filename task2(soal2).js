@@ -1,6 +1,6 @@
 const mtk = 100
 const bing = 100
-const bind = 100
+const bind = 1000
 const ipa = 100
 const totaa = mtk + bing + bind + ipa
 
